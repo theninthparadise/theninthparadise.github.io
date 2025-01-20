@@ -1,0 +1,29 @@
+baseURL = "https://theninthparadise.github.io/"
+languageCode = "en-us"
+title = "My Personal Website"
+theme = "Niello"
+
+[params]
+  description = "欢迎来到我的个人网站！"
+  author = "你的名字"
+  favicon = "/images/favicon.ico"  # 你可以换成自己的图标
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
