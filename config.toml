@@ -1,29 +1,35 @@
 baseURL = "https://theninthparadise.github.io/"
 languageCode = "en-us"
-title = "My Personal Website"
-theme = "Niello"
+title = "The Ninth Paradise"
+theme = "archie"
 
 [params]
-  description = "欢迎来到我的个人网站！"
-  author = "你的名字"
-  favicon = "/images/favicon.ico"  # 你可以换成自己的图标
+  mode = "light"  # 可选: "light", "dark", "auto"
+  subtitle = "我的 Hugo 个人网站"
+  brand = "Ninth Paradise"
+  favicon = "/favicon.ico"
+
+  # 是否启用社交链接
+  useCDN = true
 
 [menu]
   [[menu.main]]
-    identifier = "home"
     name = "Home"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
+    name = "Blog"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 3
+
+[social]
+  github = "theninthparadise"
+  linkedin = "your-linkedin-username"
+  twitter = "your-twitter-handle"
 
